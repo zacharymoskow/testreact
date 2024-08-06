@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reel2Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://reel2recipe.com/assets/logo-B5xPltaP.png" alt="Reel2Recipe Logo">
+            </div>
+            <nav>
+                <div class="food-icons">
+                    <span>🌮</span>
+                    <span>🥞</span>
+                    <span>🥗</span>
+                    <span>🍜</span>
+                    <span>🍲</span>
+                </div>
+                <div id="theme-toggle" class="theme-toggle">
+                    <div class="toggle-switch">
+                        <div class="toggle-knob"></div>
+                        <span class="sun">☀️</span>
+                        <span class="moon">🌙</span>
+                    </div>
+                </div>
+                <a href="#">Pricing</a>
+                <a href="#">Sign Up</a>
+                <a href="#">Log in</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Convert your favorite cooking <span class="highlight">videos to recipes</span> instantly</h1>
+        <p class="subtitle">Paste the video URL below and instantly get your ingredients and step by step instructions.</p>
+        <form>
+            <input type="text" placeholder="Paste YouTube video ID or url here">
+            <button type="submit">🔍</button>
+        </form>
+        <a href="#" class="discover-link">Discover Recipes</a>
+    </main>
+    <footer>
+        <p>© 2024 Reel2Recipe. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js" defer></script>
+</body>
+</html>
